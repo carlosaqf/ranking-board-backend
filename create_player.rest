@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/players
+Content-Type: application/json
+
+{
+    "playerName": {
+        "firstName": "Russell",
+        "lastName": "Wilson"
+    },
+    "imageUrl": "This is a test"
+}
